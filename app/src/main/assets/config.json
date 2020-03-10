@@ -1,0 +1,8 @@
+{
+  "jcAddress": "192.168.11.226",
+  "jcPort": "8280",
+  "jcPath": "jc",
+  "loginName": "",
+  "intervalTime": 30,
+  "comPort": "/dev/ttyS0"
+}

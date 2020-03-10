@@ -1,0 +1,95 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
+android {
+    compileSdkVersion 28
+
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    api 'com.squareup.okhttp3:okhttp:4.1.0'
+    api 'io.reactivex.rxjava2:rxjava:2.2.6'
+    api 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    api 'com.squareup.retrofit2:retrofit:2.6.1'
+    api 'com.squareup.retrofit2:converter-jackson:2.6.1'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.6.1'
+    api 'com.squareup.retrofit2:converter-scalars:2.6.1'
+    api 'com.google.code.gson:gson:2.8.6'
+    api 'com.fasterxml.jackson.core:jackson-annotations:2.9.9'
+    api 'com.fasterxml.jackson.core:jackson-databind:2.9.9'
+    api 'com.fasterxml.jackson.core:jackson-core:2.9.9'
+    api 'org.slf4j:slf4j-api:1.7.28'
+    api 'com.github.tony19:logback-android:2.0.0'
+    api 'com.google.android.material:material:1.0.0'
+    implementation project(path: ':utils')
+    implementation files('libs/yumei-common-1.2.201608260004.jar')
+}
+task sourceJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier "sources"
+}
+publishing {
+    publications {
+        aar(MavenPublication) {
+            //记住一下规则,等会导入时注意, 举例compile 'com.newing.mvp:debug:1.0.0'
+            groupId 'com.newing.core'//包名
+            artifactId 'debug'
+            version '1.0.0'//版本
+            // Tell maven to prepare the generated "*.aar" file for publishing
+            artifact(sourceJar)
+            artifact("$buildDir/outputs/aar/${project.getName()}-release.aar")
+            //同时记录该依赖库所依赖的其他远程依赖
+            pom.withXml {
+                def dependenciesNode = asNode().appendNode('dependencies')
+                //Iterate over the compile dependencies (we don't want the test ones), adding a <dependency> node for each
+                configurations.api.allDependencies.each {
+                    if (it.group != null && (it.name != null || "unspecified".equals(it.name)) && it.version != null) {
+                        def dependencyNode = dependenciesNode.appendNode('dependency')
+                        dependencyNode.appendNode('groupId', it.group)
+                        dependencyNode.appendNode('artifactId', it.name)
+                        dependencyNode.appendNode('version', it.version)
+                    }
+                }
+            }
+        }
+    }
+    repositories {
+        maven {
+            //仓库存放在项目根目录
+//            url("file://" + project.rootDir.absolutePath + "/repository")
+            url("http://192.168.11.70:8081/repository/maven-releases/")
+            //认证用户和密码
+            credentials {
+                username 'admin'
+                password '123456'
+            }
+        }
+    }
+}

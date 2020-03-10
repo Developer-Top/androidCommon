@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3b3f6814-6fef-42c0-89d0-a6f7da66f98d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/receiptprint/contract/LoginContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/receiptprint/model/LoginModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/receiptprint/presenter/LoginPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/receiptprint/ui/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/libs/yumei-common-1.2.201608260004.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/LogUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/codec/Base64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/codec/BaseNCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/codec/BinaryDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/codec/BinaryEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/codec/CharSequenceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/codec/Decoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/codec/DecoderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/codec/Encoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/codec/EncoderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/codec/EpayppConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/codec/EpayppHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/codec/RequestParametersHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/codec/StreamUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/encrypt/EpayppApiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/encrypt/EpayppSignature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/encrypt/HexUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/encrypt/RSA_Uilt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/encrypt/RsaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/encrypt/encodeBase64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/newing/library/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/receiptprint/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/newing/library/TestAlertDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/receiptprint/TestAlertDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/newing/library/app/LibApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/receiptprint/app/LibApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/newing/library/bean/GlobalConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/receiptprint/bean/GlobalConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/newing/library/contract/MainContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/receiptprint/contract/MainContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/newing/library/model/MainModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/receiptprint/model/MainModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/newing/library/presenter/MainPrestener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/receiptprint/presenter/MainPrestener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/newing/library/test/RestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/receiptprint/test/RestApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/newing/library/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/receiptprint/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/core/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/core/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/adapter/CommonFragmentPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/adapter/CommonFragmentPagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/adapter/CommonGridLayoutAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/adapter/CommonGridLayoutAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/adapter/CommonPageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/adapter/CommonPageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/adapter/CommonPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/adapter/CommonPagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/adapter/CommonRecyclerViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/adapter/CommonRecyclerViewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/adapter/TreeAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/adapter/TreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseDialogInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseDialogInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseHttpListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseHttpListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseModelInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseModelInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BasePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BasePresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BasePresenterInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BasePresenterInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseSingleObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseSingleObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseView.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/HttpExceptionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/HttpExceptionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/entity/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/entity/ErrorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/entity/ExceptionMessageEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/entity/ExceptionMessageEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/helper/BaseConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/helper/CoreConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/helper/HttpLoggingInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/helper/HttpLoggingInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/helper/SchedulerProviderHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/helper/SchedulerProviderHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/rest/ApiFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/rest/ApiFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/newing/core/rest/ApiManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/newing/core/rest/ApiManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/res/layout/item_error.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/res/layout/item_error.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/res/layout/item_no_more_data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/res/layout/item_no_more_data.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/res/layout/layout_empty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/res/layout/layout_empty.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/com/newing/core/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/com/newing/core/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/utils/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/utils/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/utils/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/APKVersionCodeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/APKVersionCodeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/BitmapUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/BitmapUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/BytesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/BytesUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/CrashHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/CrashHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/Empty.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/Empty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/FileProvider7.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/FileProvider7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/ListUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/ListUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/PermissionsChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/PermissionsChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/PinyinUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/PinyinUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/PrisonDifferentName.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/PrisonDifferentName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/ScheduledExecutorServiceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/ScheduledExecutorServiceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/SerialNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/SerialNo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/SharedPreferencesUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/SharedPreferencesUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/ZipUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/ZipUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/test/java/com/newing/utils/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/test/java/com/newing/utils/ExampleUnitTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/build/classes/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/core/build/" />
+    <ignored path="$PROJECT_DIR$/app/build/" />
+    <ignored path="$PROJECT_DIR$/utils/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="NewPrint1280_API_23" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/receiptprint/ui/LoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/receiptprint/contract/LoginContract.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/receiptprint/contract/MainContract.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/receiptprint/bean/BaseInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/receiptprint/presenter/LoginPresenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/receiptprint/presenter/MainPrestener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/receiptprint/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="946">
+              <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1299#1300#0" expanded="true" />
+                <element signature="e#1351#1352#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="22" column="135" selection-start-line="22" selection-start-column="135" selection-end-line="22" selection-end-column="135" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>com.newing</find>
+      <find>GlobalConfig</find>
+      <find>getRestApi</find>
+      <find>retrofit</find>
+      <find>Config</find>
+      <find>url</find>
+      <find>getTermBaseInfoQuery</find>
+      <find>setWaitDialog</find>
+      <find>mDialog</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>com.receiptprint</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BasePresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/receiptprint/presenter/MainPrestener.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/receiptprint/model/MainModel.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/encrypt/HexUtil.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/codec/EpayppConstants.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/encrypt/StringUtils.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/encrypt/EpayppSignature.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/LogUtils.java" />
+        <option value="$PROJECT_DIR$/core/src/main/assets/config.json" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/Login.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/ConfigUtil.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/newing/core/app/GlobalParam.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/codec/Base64.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/codec/BaseNCodec.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/codec/EpayppHashMap.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/newing/core/rest/RestApi.java" />
+        <option value="$PROJECT_DIR$/core/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseSingleObserver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/receiptprint/test/RestApi.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/receiptprint/contract/LoginContract.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/HttpExceptionUtil.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/GsonConverterFactory.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/GsonResponseBodyConverter.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/newing/core/entity/ErrorMessage.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/newing/core/rest/ApiManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/receiptprint/model/LoginModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/receiptprint/bean/BaseInfo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/receiptprint/TestAlertDialog.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/LoadingDialog.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/newing/core/base/LoadingDialog2.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/receiptprint/presenter/LoginPresenter.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/newing/core/rest/Constants.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/view/CustomsTextView.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/dataBindingGenBaseClassesDebug/out/com/receiptprint/databinding/ActivityLoginBinding.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/transformer/FlipVerticalTransformer.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/transformer/ABaseTransformer.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/view/BannerViewPager.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/Transformer.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/WeakHandler.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/Banner.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/res/layout/banner.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/receiptprint/ui/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/receiptprint/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages AndroidView="false" PackagesPane="false" ProjectPane="false" />
+      <hideEmptyPackages PackagesPane="false" />
+      <abbreviatePackageNames PackagesPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Library" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Library" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidLib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidLib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidLib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidLib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidLib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidLib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidLib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="receiptprint" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidLib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="receiptprint" type="462c0819:PsiDirectoryNode" />
+              <item name="presenter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidLib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="receiptprint" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidLib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="NewPrint1280_API_23" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-02-25T08:24:28.596Z" />
+    <property name="android.sdk.path" value="D:/AndroidSDK" />
+    <property name="last.edited.regexp" value="Sample Text" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/utils/src/main/res/layout" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Signing Configs" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.receiptprint" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.receiptprint" />
+      <recent name="com.newing.core.base" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.newing.utils.view" />
+      <recent name="com.newing.core.base" />
+      <recent name="com.newing.core.rest" />
+      <recent name="com.newing.utils" />
+      <recent name="com.newing.utils.encrypt" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/utils/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/utils/src/main/res" />
+      <recent name="$PROJECT_DIR$/core/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/utils/src/main/res/values" />
+      <recent name="$PROJECT_DIR$/utils/src/main/java/com/newing/utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="publiclogin" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="publiclogin" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b3f6814-6fef-42c0-89d0-a6f7da66f98d" name="Default Changelist" comment="" />
+      <created>1578287157712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578287157712</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27211303" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.32969433" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.11790393" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Build" order="8" visible="true" weight="0.30458516" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.17030568" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.27948403" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/printUI/src/main/res/drawable-nodpi/image_sweepcode_background.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/printUI/src/main/res/drawable-nodpi/image_index.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/printUI/src/main/res/drawable-nodpi/image_guide.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/printUI/src/main/res/drawable-nodpi/ic_initialize.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseHttpListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/newing/core/base/HttpExceptionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="69" column="43" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/newing/core/base/GsonResponseBodyConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1459">
+          <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="e#407#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/view/CustomsTextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/dataBindingGenBaseClassesDebug/out/com/receiptprint/databinding/ActivityLoginBinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/res/values/ids.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/listener/OnBannerClickListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/listener/OnBannerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/loader/ImageLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/loader/ImageLoaderInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/transformer/ABaseTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/transformer/AccordionTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/transformer/BackgroundToForegroundTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/transformer/CubeInTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/transformer/CubeOutTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/transformer/DepthPageTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/transformer/FlipHorizontalTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/transformer/FlipVerticalTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/transformer/ForegroundToBackgroundTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/transformer/RotateDownTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/transformer/RotateUpTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/transformer/ScaleInOutTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/transformer/TabletTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/transformer/ZoomInTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/transformer/ZoomOutSlideTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/transformer/ZoomOutTranformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/Transformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/WeakHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9500">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-708" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/res/layout/banner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/view/BannerViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/newing/utils/banner/Banner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="207" column="20" selection-start-line="207" selection-start-column="20" selection-end-line="207" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="115" column="50" selection-start-line="115" selection-start-column="50" selection-end-line="115" selection-end-column="50" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/receiptprint/ui/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/receiptprint/contract/LoginContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/receiptprint/contract/MainContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/receiptprint/presenter/LoginPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/receiptprint/presenter/MainPrestener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/receiptprint/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="22" column="135" selection-start-line="22" selection-start-column="135" selection-end-line="22" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/newing/core/base/BaseView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/receiptprint/bean/BaseInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android API 14 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

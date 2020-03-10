@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@drawable/image_index"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/image_index">
+
+            <ImageView
+                android:id="@+id/view"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="60dp"
+                android:background="@android:color/transparent" />
+            <com.newing.utils.view.CustomsTextView
+                android:id="@+id/btn_guide"
+                android:drawablePadding="30dp"
+                android:padding="20dp"
+                android:drawableRight="@drawable/login_index"
+                android:layout_marginRight="190dp"
+                android:textColor="#fff"
+                android:layout_marginBottom="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:textSize="28sp"
+                android:text="新手指引"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:id="@+id/liner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="710dp"
+                    android:orientation="horizontal">
+
+                    <com.newing.utils.banner.Banner
+                        android:id="@+id/convenientBanner_index"
+                        android:layout_width="650dp"
+                        android:layout_height="500dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="180dp"></com.newing.utils.banner.Banner>
+                    <!--<RelativeLayout-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1">-->
+
+                    <!--<TextView-->
+                    <!--android:id="@+id/swipingcard"-->
+                    <!--android:layout_width="400dp"-->
+                    <!--android:layout_height="87dp"-->
+                    <!--android:layout_marginLeft="105dp"-->
+                    <!--android:layout_marginTop="340dp"-->
+                    <!--android:background="@android:color/transparent" />-->
+
+                    <!--<TextView-->
+                    <!--android:id="@+id/writecard"-->
+                    <!--android:layout_width="400dp"-->
+                    <!--android:layout_height="87dp"-->
+                    <!--android:layout_below="@+id/swipingcard"-->
+                    <!--android:layout_marginLeft="105dp"-->
+                    <!--android:layout_marginTop="80dp"-->
+                    <!--android:background="@android:color/transparent" />-->
+                    <!--</RelativeLayout>-->
+
+                    <!--金华成泰-->
+                    <!--<RelativeLayout-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="match_parent">-->
+                    <!--<TextView-->
+                    <!--android:id="@+id/swipingidcard"-->
+                    <!--android:layout_marginTop="300dp"-->
+                    <!--android:layout_marginLeft="120dp"-->
+                    <!--android:background="@android:color/transparent"-->
+                    <!--android:layout_width="370dp"-->
+                    <!--android:layout_height="77dp" />-->
+
+                    <!--<TextView-->
+                    <!--android:layout_below="@+id/swipingidcard"-->
+                    <!--android:id="@+id/swipingcard"-->
+                    <!--android:layout_marginTop="40dp"-->
+                    <!--android:layout_marginLeft="120dp"-->
+                    <!--android:background="@android:color/transparent"-->
+                    <!--android:layout_width="370dp"-->
+                    <!--android:layout_height="77dp" />-->
+
+                    <!--<TextView-->
+                    <!--android:layout_below="@+id/swipingcard"-->
+                    <!--android:id="@+id/writecard"-->
+                    <!--android:layout_marginTop="48dp"-->
+                    <!--android:layout_marginLeft="120dp"-->
+                    <!--android:background="@android:color/transparent"-->
+                    <!--android:layout_width="370dp"-->
+                    <!--android:layout_height="77dp" />-->
+                    <!--</RelativeLayout>-->
+
+
+<!--                    富阳-->
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/swipingcard"
+                            android:layout_width="370dp"
+                            android:layout_height="77dp"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="300dp"
+                            android:background="#000" />
+
+                        <TextView
+                            android:id="@+id/writecard"
+                            android:layout_width="370dp"
+                            android:layout_height="77dp"
+                            android:layout_below="@+id/swipingcard"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="44dp"
+                            android:background="@android:color/transparent" />
+
+                        <TextView
+                            android:id="@+id/tiandan"
+                            android:layout_width="370dp"
+                            android:layout_height="77dp"
+                            android:layout_below="@+id/writecard"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="44dp"
+                            android:background="@android:color/transparent" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:paddingBottom="15dp"
+                android:text=""
+                android:textColor="#323232"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/print_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="15dp"
+                android:text=""
+                android:textColor="#323232"
+                android:textSize="22sp" />
+        </RelativeLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
